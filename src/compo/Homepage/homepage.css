@@ -1,0 +1,73 @@
+
+body {
+  border: 1px solid #000000;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+aside {
+  border: 1px solid #000000;
+  height: 90%;
+  width: 20%;
+}
+section {
+  border: 1px solid #000000;
+  height: 90%;
+  width: 70%;
+}
+.aside-head {
+  height: 20px;
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: Libre Baskerville, serif;
+  font-size: 1.5rem;
+}
+.aside-head > button {
+  margin: 0.5px;
+  width: 30px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+.section-textArea{
+  height: 100%;
+  width: 100%;
+}
+.section-textArea>textarea{
+  width: 90%;
+  height: 85%;
+  padding: 10px;
+}
+.section-buttons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+
+}
+.section-buttons>ul{
+  display: flex;
+  gap: 10px;
+}
+.bold>button{
+  font-weight: bold; 
+  padding: 1% 2%;
+}
+.bold-btn{
+   font-weight: bold; 
+    padding: 1% 2%;
+}
+.btns{
+  display: flex;
+  gap: 10px;
+}
