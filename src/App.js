@@ -11,7 +11,6 @@ function App() {
   
   useEffect(() => {
     console.log("useEffect loaded")
-    // localStorage.setItem("notelength", noteLength);
   }, [])
 
   
